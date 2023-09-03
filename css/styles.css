@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0000004b url(https://uiec.ru/wp-content/uploads/2022/10/1614379526_42-p-svetlii-biznes-fon-44.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    height: 100%;
+
+    margin: 0;
+    padding-top: 20px;
+}
+
+.outer-box-main-page {
+    display: block;
+    background-color: #33d1ec75;
+    
+    border: 2px solid rgba(7, 206, 241, 0.4);
+    border-radius: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, -70%);
+    margin-left: auto;
+    margin-right: auto;
+
+    width: auto;
+    max-width: 1000px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.outer-box {
+    display: block;
+    background-color: #33d0ec9c;
+    
+    border: 2px solid rgba(7, 206, 241, 0.384);
+    border-radius: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    width: auto;
+    max-width: 1000px;
+}
+
+.default-text {
+    text-align: left;
+
+    font-size: medium;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.default-text a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+    font-weight: bold;
+}
+
+.img-box {
+    display: block;
+
+    width: 80%;
+    height: auto;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+
