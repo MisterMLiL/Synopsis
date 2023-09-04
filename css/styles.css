@@ -1,41 +1,10 @@
 html {
-    height: 100%;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body {
+html, body {
     background: #0000004b url(https://uiec.ru/wp-content/uploads/2022/10/1614379526_42-p-svetlii-biznes-fon-44.jpg);
     background-attachment: fixed;
-    backdrop-filter: blur(3px);
-    height: 100%;
-
-    margin: 0;
-    padding-top: 20px;
-}
-
-.outer-box-main-page {
-    display: block;
-    background-color: #33d1ec75;
-    
-    border: 2px solid rgba(7, 206, 241, 0.4);
-    border-radius: 10px;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-
-    height: fit-content;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: translate(0, -70%);
-    margin-left: auto;
-    margin-right: auto;
-
-    width: auto;
-    max-width: 1000px;
 }
 
 h1 {
@@ -53,12 +22,18 @@ h1 {
     padding-right: 20px;
     padding-bottom: 20px;
 
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-
+    
     width: auto;
     max-width: 1000px;
+}
+
+.outer-box li {
+    text-align: left;
+    font-size: large;
 }
 
 .default-text {
@@ -83,14 +58,12 @@ h1 {
     display: inline-block;
 
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
 
     background-color: #67ceb4e8;
     
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .img-box img {
@@ -98,3 +71,50 @@ h1 {
     height: 100%;
 }
 
+.table-box {
+    display: block;
+
+    max-width: 600px;
+    height: auto;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+
+    background-color: #67ceb4e8;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.code-block {
+    display: block;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-color: #67ceb4e8;
+
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    max-width: 300px;
+}
