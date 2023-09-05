@@ -1,6 +1,12 @@
 body {
-    background: #0000004b url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674509615_catherineasquithgallery-com-p-korichnevo-fioletovii-fon-89.jpg);
+    background-image:url(../images/Ekofon.png);
+    background-position: center center;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     margin: 0px auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -15,8 +21,12 @@ h1 {
 }
 
 .outer-box {
-    display: block;
-    background-color: #ffe056de;
+    display: grid;
+
+    height: auto;
+    background-color: #2bf5c39d;
+
+    transition: background-color 0.3s ease-in-out;
     
     border: 1px solid black;
     border-radius: 10px;

@@ -1,6 +1,15 @@
 body {
-    background: #0000004b url(https://digitaldetox.io/wp-content/uploads/2018/02/AI-world-forum-background-cropped-1920x1000.jpg);
+    background: #0000004b url(../images/Menedzhment.png);
+    background-position: center center;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 html {
