@@ -27,7 +27,7 @@ h1 {
 
 .main-page-summary:hover {
     color: #2fefd0;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 10px black;
     cursor: pointer;
 }
 
