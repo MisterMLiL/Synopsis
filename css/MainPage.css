@@ -14,6 +14,14 @@ h1 {
     text-align: center;
 }
 
+summary, summary::marker {
+    list-style: none;
+}
+
+summary, summary::before {
+    
+}
+
 .outer-box {
     display: block;
     background-color: #20dbd2;
