@@ -14,6 +14,23 @@ h1 {
     text-align: center;
 }
 
+.main-page-unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-page-summary, summary::marker {
+    list-style: none;
+}
+
+.main-page-summary:hover {
+    color: #2fefd0;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
 .outer-box {
     display: block;
     background-color: #20dbd2;
