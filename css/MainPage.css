@@ -21,6 +21,20 @@ h1 {
     user-select: none;
 }
 
+.link-select {
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+.link-select:hover {
+    text-shadow: 2px 2px 7px dimgray;
+    cursor: pointer;
+}
+
+.main-page-summary {
+    transition: color 0.1s ease-in-out;
+    transition: text-shadow 0.1s ease-in-out;
+}
+
 .main-page-summary, summary::marker {
     list-style: none;
 }
