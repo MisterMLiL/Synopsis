@@ -21,7 +21,7 @@ h1 {
 }
 
 .outer-box {
-    display: grid;
+    display: block;
 
     height: auto;
     background-color: #2bf0a4a2;
