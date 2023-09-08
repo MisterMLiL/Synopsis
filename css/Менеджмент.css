@@ -22,7 +22,7 @@ h1 {
 
 .outer-box {
     display: block;
-    background-color: #3aadfabb;
+    background-color: #91d2fde0;
     
     border: 2px solid rgba(7, 206, 241, 0.171);
     border-radius: 10px;
@@ -98,7 +98,7 @@ table {
     border-collapse: collapse;
     border: 2px solid black;
 
-    background-color: #beffff;
+    background-color: #6adbdbd2;
 
     margin-top: 20px;
     margin-bottom: 20px;
