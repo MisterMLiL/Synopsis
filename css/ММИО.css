@@ -20,6 +20,39 @@ h1 {
     text-align: center;
 }
 
+.default-text-color {
+    color: #000000;
+}
+
+.page-unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.link-select {
+    transition: color 0.3s ease-in-out;
+}
+
+.link-select:hover {
+    color: #32554f;
+    cursor: pointer;
+}
+
+.page-summary {
+    transition: color 0.3s ease-in-out;
+}
+
+.page-summary, summary::marker {
+    list-style: none;
+}
+
+.page-summary:hover {
+    color: #32554f;
+    cursor: pointer;
+}
+
 .outer-box {
     display: block;
 
