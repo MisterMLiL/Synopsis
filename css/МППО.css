@@ -157,15 +157,21 @@ td {
 .code-block {
     display: block;
 
+    color: #000;
+    font-weight: bold;
+
     border: 1px solid black;
     border-radius: 10px;
 
-    background-color: #beffff;
+    background-color: #bd93be;
 
     padding: 10px;
 
     margin-top: 10px;
     margin-bottom: 10px;
 
-    max-width: 300px;
+    max-width: 500px;
+
+    white-space: pre;
+    overflow-x: auto;
 }
