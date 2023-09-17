@@ -25,6 +25,10 @@ html {
     color: #ebbddc;
 }
 
+.default-test-color {
+    color: #2693d7;
+}
+
 .main-page-unselectable {
     -webkit-user-select: none;
     -moz-user-select: none;
