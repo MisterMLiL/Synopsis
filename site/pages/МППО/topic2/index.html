@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Тема 2: Unified Modelling Language (UML)</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="icon" href="/public/images/icon.svg" type="image/svg">
+</head>
+<body>
+<div class="main">
+    <div class="content-block">
+<h1>Unified Modelling Language (UML)</h1>
+</div>
+<div class="content-block">
+<details class="dd-list"><summary><h1>Файлы</h1></summary>
+    <p><a href="../files/topic2/МППО тема 2.txt" download>МППО тема 2.txt</a></p>
+</details>
+</div>
+<div class="content-block">
+<h2>UML: Назначение</h2>
+<ul>
+<li>
+<p>Анализ требований</p>
+</li>
+<li>
+<p>Проектирование</p>
+</li>
+<li>
+<p>Документирование</p>
+</li>
+</ul>
+<h2>UML: Особенности</h2>
+<ul>
+<li>
+<p>Язык графического описания</p>
+</li>
+<li>
+<p>Стандартные диаграммы</p>
+</li>
+<li>
+<p>Стандартный способ отображения элементов</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>Типы диаграмм</h2>
+<ul>
+<li>
+<p>Структурные диаграммы</p>
+</li>
+<li>
+<p>Диаграммы поведения</p>
+</li>
+<li>
+<p>Диаграммы взаимодействия</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>Структурные диаграммы</h2>
+<ul>
+<li>
+<p>Диаграмма классов</p>
+</li>
+<li>
+<p>Диаграмма компонентов</p>
+</li>
+<li>
+<p>Диаграмма композитной структуры</p>
+</li>
+<li>
+<p>Диаграмма развертывания</p>
+</li>
+<li>
+<p>Диаграмма объектов</p>
+</li>
+<li>
+<p>Диаграмма пакетов</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>Диаграммы поведения</h2>
+<ul>
+<li>
+<p>Диаграмма деятельности</p>
+</li>
+<li>
+<p>Диаграмма состояний</p>
+</li>
+<li>
+<p>Диаграмма вариантов использования</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>Диаграммы взаимодействия</h2>
+<ul>
+<li>
+<p>Диаграмма кооперации</p>
+</li>
+<li>
+<p>Диаграмма последовательности</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>UML: преимущества</h2>
+<ul>
+<li>
+<p>Объектно-ориентирован</p>
+</li>
+<li>
+<p>Стандартное разностороннее описание системы</p>
+</li>
+<li>
+<p>Простые для понимания диаграммы</p>
+</li>
+<li>
+<p>Динамично развивается</p>
+</li>
+<li>
+<p>Интеграция в RAD-системы</p>
+</li>
+</ul>
+<h2>UML: Способы построения</h2>
+<ul>
+<li>
+<p>Визуальные</p>
+<ul>
+<li>Rational Rose</li>
+<li>MS Visio</li>
+<li>Umbrello</li>
+</ul>
+</li>
+<li>
+<p>WYSIWYM</p>
+<ul>
+<li>WebSequenceDiagrams.com</li>
+<li>PlantUML</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>MS Visio</h2>
+<h2>Визуальные: Преимущества</h2>
+<ul>
+<li>
+<p>Наглядное построение</p>
+</li>
+<li>
+<p>Полный контроль над отображением</p>
+</li>
+<li>
+<p>Интеграция с кодом (опционально)</p>
+</li>
+</ul>
+<h2>Визуальные: Недостатки</h2>
+<ul>
+<li>
+<p>Трудоемкое поддержание в актуальном состоянии</p>
+</li>
+<li>
+<p>Сложно отслеживать изменения</p>
+</li>
+<li>
+<p>Сложно организовать коллективную работу</p>
+</li>
+<li>
+<p>Пропириетарные форматы файлов</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>PlantUML</h2>
+<ul>
+<li>
+<p>WYSIWYM</p>
+</li>
+<li>
+<p>Текстовое описание элементов UML-диаграмм</p>
+</li>
+<li>
+<p>Открытые инструменты разработки и генерации диаграмм</p>
+</li>
+</ul>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма последовательности</h2>
+<pre><code>@startuml
+Alice -&gt; Bob: Authentication
+    Request
+Bob --&gt; Alice: Authentication
+Response
+Alice -&gt; Bob: Another request
+Alice &lt;-- Bob: Another response
+@enduml
+</code></pre>
+<pre><code>@startuml
+Bob -&amp;gt;x Alice
+Bob -&amp;gt; Alice
+Bob -&amp;gt;&amp;gt; Alice
+Bob -\ Alice
+Bob \\- Alice
+Bob //-- Alice
+Bob -&amp;gt;o Alice
+Bob o\\-- Alice
+Bob &amp;lt;-&amp;gt; Alice
+Bob &amp;lt;-&amp;gt;o Alice
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма использования</h2>
+<pre><code>@startuml
+(Start) as Start
+    (Use the application) as Using
+User -&amp;gt; Start
+User --&amp;gt; Using : A small label
+:Main Admin: ---&amp;gt; Using : This is\nyet
+    another\nlabel
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма классов</h2>
+<pre><code>@startuml
+interface Product {
+    + setName(String name)
+    + getName()
+}
+class ConcreteProduct {
+    - String name
+    + setName(String name)
+    + getName()
+}
+abstract class Creator {
+    + Product factoryMethod()
+}
+class ConcreteCreator {
+    + Product factoryMethod()
+}
+Product &amp;lt;|- ConcreteProduct
+    Creator &amp;lt;|- ConcreteCreator
+    ConcreteProduct &amp;lt;.. ConcreteCreator
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма деятельности</h2>
+<pre><code>@startuml
+start
+:Прослушать лекции;
+:Выполнить лабораторные работы;
+repeat
+:Подготовиться к экзамену;
+if (Есть допуск?) then
+    :Прийти на экзамен;
+endif
+    repeat while (Как экзамен?) is (:()
+stop
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма компонентов</h2>
+<pre><code>@startuml
+package &quot;Some Group&quot; {
+    HTTP - [First Component]
+    [Another Component]
+    }
+    node &quot;Other Groups&quot; {
+    FTP - [Second Component]
+    [First Component] --&amp;gt; FTP
+    }
+    cloud {
+    [Example 1]
+    }
+    database &quot;MySql&quot; {
+    folder &quot;This is my folder&quot; {
+    [Folder 3]
+    }
+    frame &quot;Foo&quot; {
+    [Frame 4]
+    }
+    }
+    [Another Component] --&amp;gt; [Example 1]
+    [Example 1] --&amp;gt; [Folder 3]
+    [Folder 3] --&amp;gt; [Frame 4]
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма состояний</h2>
+<pre><code>@startuml
+[*] --&amp;gt; NotShooting
+    state &quot;Not Shooting State&quot; as NotShooting {
+    state &quot;Idle mode&quot; as Idle
+    state &quot;Configuring mode&quot; as Configuring
+    [*] --&amp;gt; Idle
+    Idle --&amp;gt; Configuring : EvConfig
+    Configuring --&amp;gt; Idle : EvConfig
+    }
+note right of NotShooting : This is a\nnote on a
+    composite state
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма развертывания</h2>
+<pre><code>@startuml
+node &quot;&amp;lt;&lt;device&gt;&amp;gt;\nWeb Server&quot; as
+    WebServer {
+    artifact Website
+    }
+    node &quot;&amp;lt;&lt;device&gt;&amp;gt;\n:DB Server&quot; as
+    DbServer {
+    artifact &quot;MySQL DB&quot;
+    }
+    node &quot;&amp;lt;&lt;device&gt;&amp;gt;\n:User Client&quot; as
+    UserClient {
+    node &quot;&amp;lt;&lt;device&gt;&amp;gt;\nBrowser&quot; {
+    artifact &quot;HTML 5&quot;
+    }
+    }
+WebServer –- DbServer
+WebServer -- UserClient : http:80
+@enduml
+&lt;/device&gt;&lt;/device&gt;&lt;/device&gt;&lt;/device&gt;
+</code></pre>
+</div>
+<div class="content-block">
+<h2>PlantUML: Диаграмма объектов</h2>
+<pre><code>@startuml
+object User {
+    id = 123
+    name = &quot;John Doe&quot;
+    }
+object AuthToken {
+    salt = &quot;w34a290sdfh2i8dsf&quot;
+    secret = &quot;2237w3bed023usdf799&quot;
+    }
+User &quot;1&quot; o-- &quot;1&quot; AuthToken
+@enduml
+</code></pre>
+</div>
+<div class="content-block">
+<h2>Что использовать?</h2>
+<ul>
+<li>
+<p>«Серебрянной пули» нет</p>
+</li>
+<li>
+<p>Отталкивайтесь от ваших потребностей</p>
+</li>
+</ul>
+</div>
+
+</div>
+</body>
+</html>
