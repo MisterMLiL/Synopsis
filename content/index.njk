@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+title: Главная страница
+---
+{% contentblock %}
+    <details class="dd-list">
+        <summary>
+            <h1>Менеджмент</h1>
+        </summary>
+        {%- for post in collections.Менеджмент -%}
+        <p>
+            <a href="{{post.url}}">
+                {{ post.data.title }}
+            </a>
+        </p>
+        {%- endfor -%}
+    </details>
+{% endcontentblock %}
+
+{% contentblock %}
+    <details class="dd-list">
+        <summary>
+            <h1>Менеджмент проектов программного обеспечения</h1>
+        </summary>
+        {%- for post in collections.МППО -%}
+        <p>
+            <a href="{{post.url}}">
+                {{ post.data.title }}
+            </a>
+        </p>
+        {%- endfor -%}
+    </details>
+{% endcontentblock %}
+
+{% contentblock %}
+    <details class="dd-list">
+        <summary>
+            <h1>Математические методы исследования операций</h1>
+        </summary>
+        {%- for post in collections.ММИО -%}
+        <p>
+            <a href="{{post.url}}">
+                {{ post.data.title }}
+            </a>
+        </p>
+        {%- endfor -%}
+    </details>
+{% endcontentblock %}
+
+{% contentblock %}
+    <details class="dd-list">
+        <summary>
+            <h1>Экология</h1>
+        </summary>
+        {%- for post in collections.Экология -%}
+        <p>
+            <a href="{{post.url}}">
+                {{ post.data.title }}
+            </a>
+        </p>
+        {%- endfor -%}
+    </details>
+{% endcontentblock %}
+
+{% contentblock %}
+    <details class="dd-list">
+        <summary>
+            <h1>Физическая культура</h1>
+        </summary>
+        {%- for post in collections.Физическая_культура -%}
+        <p>
+            <a href="{{post.url}}">
+                {{ post.data.title }}
+            </a>
+        </p>
+        {%- endfor -%}
+    </details>
+{% endcontentblock %}
