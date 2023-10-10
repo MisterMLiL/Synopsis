@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ "/public/css/style.css" | url }}">
+    <link rel="icon" href="{{ "/public/images/icon.svg" | url }}" type="image/svg">
+</head>
+<body>
+<div class="main">
+    {{ content | safe }}
+</div>
+</body>
+</html>
