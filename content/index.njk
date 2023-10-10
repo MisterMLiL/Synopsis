@@ -9,7 +9,7 @@ title: Главная страница
         </summary>
         {%- for post in collections.Менеджмент -%}
         <p>
-            <a href="{{post.url}}">
+            <a href="{{ post.url | url }}">
                 {{ post.data.title }}
             </a>
         </p>
@@ -24,7 +24,7 @@ title: Главная страница
         </summary>
         {%- for post in collections.МППО -%}
         <p>
-            <a href="{{post.url}}">
+            <a href="{{ post.url | url }}">
                 {{ post.data.title }}
             </a>
         </p>
@@ -39,7 +39,7 @@ title: Главная страница
         </summary>
         {%- for post in collections.ММИО -%}
         <p>
-            <a href="{{post.url}}">
+            <a href="{{ post.url | url }}">
                 {{ post.data.title }}
             </a>
         </p>
@@ -54,7 +54,7 @@ title: Главная страница
         </summary>
         {%- for post in collections.Экология -%}
         <p>
-            <a href="{{post.url}}">
+            <a href="{{ post.url | url }}">
                 {{ post.data.title }}
             </a>
         </p>
@@ -69,7 +69,7 @@ title: Главная страница
         </summary>
         {%- for post in collections.Физическая_культура -%}
         <p>
-            <a href="{{post.url}}">
+            <a href="{{ post.url | url }}">
                 {{ post.data.title }}
             </a>
         </p>
