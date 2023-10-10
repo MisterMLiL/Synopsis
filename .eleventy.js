@@ -1,5 +1,8 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/**/*.png");
+  eleventyConfig.addPassthroughCopy("content/**/*.jpg");
+  eleventyConfig.addPassthroughCopy("content/**/*.jpeg");
+  eleventyConfig.addPassthroughCopy("content/**/*.svg");
   eleventyConfig.addPassthroughCopy("public/**/*");
   eleventyConfig.addPassthroughCopy("public/**/*.svg");
   eleventyConfig.addPassthroughCopy("content/pages/**/files/**/*");
