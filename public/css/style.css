@@ -76,10 +76,13 @@ html{
     color: var(--color-text);
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-self: center;
 }
 
 .content-block th{
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
     border: 3px solid var(--color-table-border);
     padding: 10px;
 }
@@ -87,7 +90,7 @@ html{
 .content-block td{
     text-align: justify;
     border: 3px solid var(--color-table-border);
-    padding: 10px;
+    padding: 5px;
 }
 
 .content-block ul{
@@ -148,6 +151,9 @@ html{
     border: 2px solid var(--color-border);
     padding: 20px;
     border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 75%;
     transition: background-color 300ms, border 0.4s ease;
 }
 
@@ -172,4 +178,13 @@ html{
 
 .dd-list h1:hover{
     text-shadow: 1px 1px 5px var(--color-text-shadow);
+}
+
+.circle-text {
+    display: inline-block;
+    padding: 10px; /* Отступы вокруг текста */
+    border: 2px solid var(--color-text); /* Граница вокруг элемента */
+    border-radius: 50%; /* Делает форму круглой */
+    text-align: center;
+    line-height: 1.5;
 }
