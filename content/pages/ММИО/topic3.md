@@ -13,8 +13,6 @@ title: "Тема 2.2: Симплекс-метод"
 
 {% files %}
     {% summarylink "ММИО 2.2 тема.docx" "topic3/ММИО 2.2 тема.docx" %}
-
-    {% summarylink "ММИО 2.2 тема.docx" "topic3/МММИО 2.2 тема.docx" %}
 {% endfiles %}
 
 {% endcontentblock %}

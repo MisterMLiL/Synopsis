@@ -12,9 +12,7 @@ title: "Тема 3: Метод искусственного базиса"
 {% contentblock %}
 
 {% files %}
-    {% summarylink "ММИО 2.2 тема.docx" "topic3/ММИО 2.2 тема.docx" %}
-
-    {% summarylink "ММИО 2.2 тема.docx" "topic3/МММИО 2.2 тема.docx" %}
+    {% summarylink "ММИО 3 тема.docx" "topic3/ММИО 3 тема.docx" %}
 {% endfiles %}
 
 {% endcontentblock %}
