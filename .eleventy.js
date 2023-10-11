@@ -19,10 +19,6 @@ module.exports = function (eleventyConfig) {
     return `<p><a href="../files/${link}" download>${name}</a></p>`
   });
 
-  eleventyConfig.addShortcode("summarylinktests", function(name, link) { 
-    return `<p><a href="../../files/${link}" download>${name}</a></p>`
-  });
-
   eleventyConfig.addShortcode("image", function(url) {
     return `<div class="image-block"><img src="${url}"></div>`;
   })

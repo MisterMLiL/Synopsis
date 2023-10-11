@@ -1,18 +1,18 @@
 ---
 layout: layouts/base.njk
-title: "Тема 1.1 Тесты: Менеджмент и его виды"
+title: "Тема 1 Тесты: Менеджмент и его виды. Методологические основы менеджмента"
 ---
 
 {% contentblock %}
 
-# Менеджмент и его виды - Тесты
+# Менеджмент и его виды. Методологические основы менеджмента - Тесты
 
 {% endcontentblock %}
 
 {% contentblock %}
 
 {% files %}
-    {% summarylinktests "Тест тема 1.txt" "topic1/Тесты/topic1/Тест тема 1.txt" %}
+    {% summarylink "Тест тема 1.txt" "tests/Тест тема 1.txt" %}
 {% endfiles %}
 
 {% endcontentblock %}
