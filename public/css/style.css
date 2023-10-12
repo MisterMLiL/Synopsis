@@ -173,7 +173,7 @@ html{
 }
 
 .dd-list h1{
-    transition: text-shadow 0.4 ease;
+    transition: text-shadow 0.4s ease;
 }
 
 .dd-list h1:hover{
