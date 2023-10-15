@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: "Тема 4: Общая функция управления"
+title: "Тема 3.2: Общая функция управления"
 ---
 
 {% contentblock %}
