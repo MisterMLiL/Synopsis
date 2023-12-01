@@ -12,7 +12,7 @@ title: "Тема 5: Антропогенное загрязнение окруж
 {% contentblock %}
 
 {% files %}
-    {% summarylink "Экология кратко.txt" "topic4/Экология кратко.txt" %}
+    {% summarylink "Экология кратко.txt" "topic5/Экология кратко.txt" %}
 {% endfiles %}
 
 {% endcontentblock %}
